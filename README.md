@@ -1,5 +1,9 @@
 # FTD Hands-On Workshop (Beta)
 
+<div align="center">
+    <img src="https://www.fifthtry.com/-/fifthtry.com/images/events/ftd-hands-on-workshop-beta-22nd-oct-2022.png">
+</div>
+
 This repository contains the source code of a [FTD Hands-On Workshop
 (Beta)](https://www.fifthtry.com/events/).
 
