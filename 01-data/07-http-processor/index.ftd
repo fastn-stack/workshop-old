@@ -1,0 +1,26 @@
+-- ftd.text: todo app
+
+-- record todo-item:
+integer id:
+caption title:
+string status:
+body description:
+
+
+
+-- todo-item list todo-list:
+
+
+
+
+-- todo-list: get milk
+id: 1
+status: pending
+
+milk is needed
+
+
+
+
+-- ftd.text: $t.title
+$loop$: $todo-list as $t
