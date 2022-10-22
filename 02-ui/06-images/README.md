@@ -1,4 +1,4 @@
-# Loop
+# Images
 
 In this exercise, we are going to understand how to add image component in ftd.
 
