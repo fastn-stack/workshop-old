@@ -30,7 +30,8 @@ Have fun, you are among friends.
 In this part we will install [fpm](https://fpm.dev), a learn about data
 modelling capabilities of FTD.
 
-- [Step 1: Hello World](01/data/01-hello-world/)
+- [Step 1: Hello World](01-data/01-hello-world/)
+- [Step 2: Variables](01-data/02-variables/)
 
 ## Part 2: Building Reusable Server Side UI
 
