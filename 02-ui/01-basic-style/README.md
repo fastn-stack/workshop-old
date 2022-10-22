@@ -12,4 +12,5 @@ file.
 
 ## You Are Done
 
-You have learnt basics of styles in ftd.
+You have learnt basics of styles in ftd. Lets move on to [dark mode
+support now](../02-dark-mode-support/).
