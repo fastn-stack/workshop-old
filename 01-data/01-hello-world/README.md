@@ -81,4 +81,4 @@ it instructs.
 You have installed fpm and created your first fpm package. Good job!
 
 Move to learning about [variables now](../02-variables/) or back to
-[the list](../../).
+[the list](../../README.md).
