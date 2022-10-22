@@ -1,0 +1,22 @@
+-- counter:
+
+-- ftd.column counter:
+padding: 20
+
+--- ftd.integer:
+value: $count
+border-width: 2
+integer count: 0
+
+--- ftd.text: increment counter
+$on-click$: increment $count
+
+--- ftd.text: decrement counter
+$on-click$: decrement $count
+
+
+--- ftd.text: increment counter by 2 clamp 0 10
+$on-click$: increment $count by 2 clamp 0 10
+
+--- ftd.text: decrement counter clamp 0 10
+$on-click$: decrement $count clamp 0 10
