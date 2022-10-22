@@ -5,3 +5,12 @@
 ; use "-- ftd.text: hello world" on a line without comments and quotes and
 ; visit http://127.0.0.1:8000 in browser to see it
 
+
+-- ftd.text: hello
+
+-- ftd.text:
+
+**hello** world
+
+this is a mult line text
+

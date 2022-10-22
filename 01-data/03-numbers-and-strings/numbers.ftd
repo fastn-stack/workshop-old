@@ -1,9 +1,10 @@
 ; TODO: lets define an integer x with the value 10
 
--- integer y: 10
+-- integer x: 20
 
 ; a variable can refer to another variable as well
-; -- integer y: $x
+
+-- integer y: $x
 
 ; we can use `ftd.integer` component to show a number in the page.
 

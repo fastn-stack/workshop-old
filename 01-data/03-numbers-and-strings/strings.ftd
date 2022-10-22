@@ -2,6 +2,8 @@
 
 ; TODO: define name here
 
+-- string name: amitu
+
 
 ; lets show the name
 
@@ -21,3 +23,5 @@ string ends when FTD encounters the next "section" or end of file
 
 
 ; TODO: now use `ftd.text` to show the bio in the UI
+
+-- ftd.text: $bio

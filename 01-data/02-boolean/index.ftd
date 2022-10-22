@@ -1,15 +1,8 @@
-; this is a ftd file
-;
-; lines starting with ; (semi-colon) are comments
-;
-; use "-- ftd.text: hello world" on a line without comments and quotes and
-; visit http://127.0.0.1:8000 in browser to see it
-
--- ftd.text: hello world
+-- ftd.text: lets learn booleans
 
 ; TODO: here we are trying to create a link using the `link` attribute but
 ; unfortunately this does not work for some reason, can you find out the issue
 ; and fix it?
 
 -- ftd.text: boolean
-;link: /boolean/
+link: /boolean/

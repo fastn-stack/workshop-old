@@ -2,6 +2,13 @@
 
 ; lets define a boolean variable using `-- boolean open: true`
 
+
+
+; -- boolean open: true
+
+
+
+
 ; the syntax to define a variable is `-- ` (section marker), followed by the
 ; type, here we use `boolean` as the type, and then the name of the variable,
 ; here it is `open` and then `:`, and finally the value of the variable
