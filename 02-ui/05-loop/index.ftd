@@ -13,3 +13,7 @@
 
 -- ftd.text: $obj
 $loop$: $locations as $obj
+
+
+-- ftd.text: with-argument
+link: /with-argument/
