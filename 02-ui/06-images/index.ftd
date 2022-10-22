@@ -1,0 +1,20 @@
+-- import: hello/assets
+
+; this is a ftd file
+;
+; lines starting with ; (semi-colon) are comments
+;
+; visit http://127.0.0.1:8000 in browser to see it
+
+-- ftd.color bg:
+light: white
+dark: black
+
+
+-- ftd.image:
+src: $assets.files.logo-fifthtry.svg
+background-color: $bg
+
+
+-- ftd.text: manual-image
+link: /manual-image/
