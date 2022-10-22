@@ -1,0 +1,13 @@
+; this is a ftd file
+;
+; lines starting with ; (semi-colon) are comments
+;
+; visit http://127.0.0.1:8000 in browser to see it
+
+-- ftd.column:
+padding: 40
+spacing: 40
+
+-- ftd.text: hello
+
+-- ftd.text: world
