@@ -9,15 +9,11 @@ body description:
 
 
 -- todo-item list todo-list:
+$processor$: http
+url: https://kameri-service.herokuapp.com/api/sample/
 
 
 
-
--- todo-list: get milk
-id: 1
-status: pending
-
-milk is needed
 
 
 
