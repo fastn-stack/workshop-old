@@ -1,0 +1,14 @@
+
+-- integer list list:
+
+-- list: 10
+-- list: 20
+-- list: 30
+
+
+
+-- ftd.integer:
+value: $o
+$loop$: $list as $o
+
+

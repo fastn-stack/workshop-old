@@ -1,18 +1,29 @@
 -- ftd.text: records
 
-; TODO: create a record with fields name (string), number-of-employees (string) and logo.
+; TODO: create a record called company with fields name (string), number-of-employees (integer) and logo.
+
+-- record company:
+string name:
+integer number-of-employees:
 
 ; TODO: create an instance of the company `fifthtry`
 
-; for logo, use:
-; https://www.fifthtry.com/-/fifthtry.com/assets/images/logo-fifthtry-dark.svg
+
+-- company fifthtry:
+name: FifthTry
+number-of-employees: 10
+
 
 
 -- ftd.text: Company
 -- ftd.text: $fifthtry.name
--- ftd.image:
-src: $fifthtry.logo
 
--- ftd.text: Number Of Employees
--- ftd.text: $fifthtry.number-of-employees
+-- ftd.text: Number Of Employee: {employee}
+
+-- ftd.integer: $fifthtry.number-of-employees
+
+
+-- ftd.integer employee:
+value: $fifthtry.number-of-employees
+border-width: 1
 

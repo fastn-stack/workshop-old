@@ -1,1 +1,28 @@
 -- ftd.text: captions and body
+
+-- record company:
+caption name:
+integer number-of-employees:
+body about:
+
+-- company fifthtry: FifthTry
+number-of-employees: 10
+
+FifthTry is solve documentation on the web.
+
+
+-- ftd.text: Company
+
+
+-- ftd.text: Number Of Employee: {number-of-employees}
+
+
+-- ftd.integer number-of-employees:
+value: $fifthtry.number-of-employees
+border-width: 1
+padding: 5
+
+
+-- ftd.text:
+
+$fifthtry.about
