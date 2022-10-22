@@ -1,0 +1,15 @@
+-- import: hello/manual-image
+
+; this is a ftd file
+;
+; lines starting with ; (semi-colon) are comments
+;
+; visit http://127.0.0.1:8000 in browser to see it
+
+-- ftd.text: This is from hello/manual-image
+
+-- manual-image.cartoon-image:
+
+
+-- ftd.text: manual-image
+link: /manual-image/

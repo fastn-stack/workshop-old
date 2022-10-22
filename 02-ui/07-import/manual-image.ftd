@@ -1,0 +1,17 @@
+; this is a ftd file
+;
+; lines starting with ; (semi-colon) are comments
+;
+; visit http://127.0.0.1:8000 in browser to see it
+
+-- ftd.image-src src:
+light: https://www.liveabout.com/thmb/YCJmu1khSJo8kMYM090QCd9W78U=/1250x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/powerpuff_girls-56a00bc45f9b58eba4aea61d.jpg
+dark: https://blog.ipleaders.in/wp-content/uploads/2021/07/751589-mickey-mouse.jpg
+
+
+-- ftd.image cartoon-image:
+src: $src
+
+
+
+-- cartoon-image:
