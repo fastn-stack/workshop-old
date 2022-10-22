@@ -1,4 +1,4 @@
-# Variables in FTD
+# Booleans in FTD
 
 What we did in [the last exercise](../01-hello-world/) we create a simple hello
 world message. We could have done this in HTML as well. Where we differ from
@@ -26,7 +26,7 @@ variable.
 
 You have learnt how to define a boolean variable and use to control the UI.
 
-Move to learning about [integers and strings](../03-integers-and-strings/) or
+Move to learning about [integers and strings](../03-numbers-and-strings/) or
 back to [the list](../../README.md).
 
 
