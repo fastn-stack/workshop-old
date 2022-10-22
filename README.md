@@ -27,7 +27,11 @@ submissions).
 
 ## Basic Instruction
 
-Clone this repository.
+Clone this repository: `git clone https://github.com/ftd-lang/ftd-workshop.git`.
+
+Get on the [discord channel for this workshop](https://discord.gg/d2MgKBybEQ)
+and interact with the instructors and others going through the workshop to show
+progress and ask for help.
 
 For each step there is a folder, eg the first step is `01-data/01-hello-world`.
 `cd` into this folder, and follow run the commands from that folder.
