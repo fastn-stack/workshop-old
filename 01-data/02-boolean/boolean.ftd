@@ -1,0 +1,27 @@
+-- ftd.text: boolean stuff
+
+; lets define a boolean variable using `-- boolean open: true`
+
+; the syntax to define a variable is `-- ` (section marker), followed by the
+; type, here we use `boolean` as the type, and then the name of the variable,
+; here it is `open` and then `:`, and finally the value of the variable
+
+
+
+; define a boolean variable called `open` after this line
+-- boolean open: true
+
+
+
+; here we are using the boolean variable
+;
+; we access a variable using `$<variable-name>` syntax.
+;
+; we can use the `if` on a component to only show the component if the boolean
+; condition matches
+
+-- ftd.text: open is true
+if: $open
+
+; go ahead and change the value of `open` to false during initialisation and
+; test in browser that it does indeed not open

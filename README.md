@@ -31,7 +31,8 @@ In this part we will install [fpm](https://fpm.dev), a learn about data
 modelling capabilities of FTD.
 
 - [Step 1: Hello World](01-data/01-hello-world/)
-- [Step 2: Variables](01-data/02-variables/)
+- [Step 2: Boolean Variables](01-data/02-boolean/)
+- [Step 3: Integers And Strings](01-data/03-integers-and-strings/)
 
 ## Part 2: Building Reusable Server Side UI
 
