@@ -14,9 +14,26 @@ url: https://kameri-service.herokuapp.com/api/sample/
 
 
 
+-- ftd.column:
+spacing: 10
+padding: 10
 
-
-
-
--- ftd.text: $t.title
+--- todo-view:
+t: $t
 $loop$: $todo-list as $t
+
+
+
+
+-- ftd.column todo-view:
+todo-item t:
+spacing: 10
+padding: 10
+border-width: 1
+border-radius: 5
+
+
+--- ftd.text: $t.title
+--- ftd.integer: $t.id
+--- ftd.text: $t.status
+--- ftd.text: $t.description
