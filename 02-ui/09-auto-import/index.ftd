@@ -1,14 +1,14 @@
--- import: button
-
+; -- import: button
+; No need to add import statement as button is added in auto-import
 ; this is a ftd file
 ;
 ; lines starting with ; (semi-colon) are comments
 ;
 ; visit http://127.0.0.1:8000 in browser to see it
 
--- ftd.text: This button is imported
+-- ftd.text: This button is imported using auto import
 
 -- button.button: Click here
-role: primary
+role: secondary
 link: /manual-image/
 large: true
