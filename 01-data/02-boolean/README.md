@@ -26,7 +26,7 @@ variable.
 
 You have learnt how to define a boolean variable and use to control the UI.
 
-Move to learning about [integers and strings](../03-numbers-and-strings/) or
+Move to learning about [numbers and strings](../03-numbers-and-strings/) or
 back to [the list](../../README.md).
 
 

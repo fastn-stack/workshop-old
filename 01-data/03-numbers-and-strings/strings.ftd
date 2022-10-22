@@ -1,0 +1,23 @@
+; lets define a single line string, name, with your name as value
+
+; TODO: define name here
+
+
+; lets show the name
+
+
+-- ftd.text: $name
+
+
+; we have defined a multiline variable
+
+-- string bio:
+
+this is the bio
+
+it can be multiline
+
+string ends when FTD encounters the next "section" or end of file
+
+
+; TODO: now use `ftd.text` to show the bio in the UI

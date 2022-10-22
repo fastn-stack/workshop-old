@@ -4,12 +4,12 @@ In the last exercise we created a boolean, we will now use numbers and strings
 in FTD.
 
 We have two types, `integer` and `decimal` in FTD for dealing with numbers in
-FTD. Integers are signed.
+FTD. Integers are signed. `integer`s and `decimal`s are quite similar to
+`boolean`s, we have the `-- integer foo: 10` syntax to define them.
 
-`integer`s and `decimal`s are quite similar to `boolean`s, we have the
-`-- integer foo: 10` syntax to define them. Strings are interesting in FTD as
-we do not use quotes, so a string is defined like `-- string name: amitu`. Also
-sometimes strings are long, so you can define strings also as:
+Strings are interesting in FTD as we do not use quotes, so a string is defined
+like `-- string name: amitu`. Also sometimes strings are long, so you can define
+strings also as:
 
 ```ftd
 -- string about-this-workshop:
@@ -32,3 +32,13 @@ decent computer, but there is no need to install any software before hand
 ```
 
 This makes FTD quite suitable for authoring content.
+
+## Task: Fix FTD files
+
+Go through [numbers.ftd](numbers.ftd) and [strings.ftd](strings.ftd) as per
+instructions given in the file.
+
+## You Are Done
+
+You have learnt basics of numbers and strings. Lets move on to [records
+now](../04-records/) or go back to [the list](../../README.md).

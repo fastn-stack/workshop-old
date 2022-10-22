@@ -49,6 +49,7 @@ modelling capabilities of FTD.
 - [Step 1: Hello World](01-data/01-hello-world/)
 - [Step 2: Boolean Variables](01-data/02-boolean/)
 - [Step 3: Numbers And Strings](01-data/03-numbers-and-strings/)
+- [Step 4: Records](01-data/04-records/)
 
 ## Part 2: Building Reusable Server Side UI
 
