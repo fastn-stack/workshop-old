@@ -1,0 +1,29 @@
+-- import: fpm
+
+; this is a ftd file
+;
+; lines starting with ; (semi-colon) are comments
+;
+; use "-- ftd.text: hello world" on a line without comments and quotes and
+; visit http://127.0.0.1:8000 in browser to see it
+
+; fpm module gives multiple fonts, you can use them against the `role` property
+; https://fpm.dev/theme/type
+
+; To define color, there is an in-built record in ftd `ftd.color`
+; -- ftd.color red:
+; light: red
+; dark: red
+; fpm module also provide bunch of colors https://fifthtry.github.io/color-doc/
+
+
+
+-- ftd.text: hello world
+; padding: 20
+; border-width: 2
+; role: $fpm.type.label-big
+; color: $red
+; color: $fpm.color.main.custom.four
+; background-color: $fpm.color.main.custom.three
+
+; remove only one of the comment for `color` property
