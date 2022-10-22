@@ -1,0 +1,40 @@
+-- import: fpm
+
+; this is a ftd file
+;
+; lines starting with ; (semi-colon) are comments
+;
+; visit http://127.0.0.1:8000 in browser to see it
+
+-- string list locations:
+
+-- locations: Bengaluru
+-- locations: Varanasi
+-- locations: Prayagraj
+
+
+
+
+-- ftd.column:
+padding: 40
+spacing: 10
+
+-- foo:
+$loop$: $locations as $obj
+name: $obj
+b: 5
+
+
+/-- foo:
+name: FifthTry
+b: 4
+
+
+
+
+-- ftd.text foo: $name
+string name:
+integer b:
+padding: 40
+border-width: $b
+
