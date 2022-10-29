@@ -1,29 +1,32 @@
+; visit https://ftd.dev/workshop/records/ for instructions
+
+
 -- ftd.text: records
 
-; TODO: create a record called company with fields name (string), number-of-employees (integer) and logo.
+; TODO: create a record called company with fields name (string) and
+; number-of-employees (integer).
 
--- record company:
-string name:
-integer number-of-employees:
+
+
 
 ; TODO: create an instance of the company `fifthtry`
 
 
+; TODO: there is something wrong with this snippet, can you find it and fix it?
+
 -- company fifthtry:
 name: FifthTry
-number-of-employees: 10
+
+
+
 
 
 
 -- ftd.text: Company
--- ftd.text: $fifthtry.name
 
--- ftd.text: Number Of Employee: {employee}
+; TODO: printout the companies name using `-- ftd.text: $fifthtry.name`
 
--- ftd.integer: $fifthtry.number-of-employees
+; TODO: printout the number of employees of the company using `ftd.integer`
 
 
--- ftd.integer employee:
-value: $fifthtry.number-of-employees
-border-width: 1
 

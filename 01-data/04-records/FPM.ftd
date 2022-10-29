@@ -1,3 +1,6 @@
+; visit https://ftd.dev/workshop/records/ for instructions
+
+
 -- import: fpm
 
 -- fpm.package: hello

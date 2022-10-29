@@ -1,12 +1,8 @@
+; visit https://ftd.dev/workshop/booleans/ for instructions
+
 -- ftd.text: boolean stuff
 
-; lets define a boolean variable using `-- boolean open: true`
-
-
-
-; -- boolean open: true
-
-
+; lets define a boolean variable
 
 
 ; the syntax to define a variable is `-- ` (section marker), followed by the
@@ -16,7 +12,6 @@
 
 
 ; define a boolean variable called `open` after this line
--- boolean open: true
 
 
 

@@ -1,3 +1,5 @@
+; visit https://ftd.dev/workshop/booleans/ for instructions
+
 -- ftd.text: lets learn booleans
 
 ; TODO: here we are trying to create a link using the `link` attribute but
@@ -5,4 +7,4 @@
 ; and fix it?
 
 -- ftd.text: boolean
-link: /boolean/
+;link: /boolean/

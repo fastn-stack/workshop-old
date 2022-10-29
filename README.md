@@ -2,8 +2,8 @@
     <img src="https://www.fifthtry.com/-/fifthtry.com/images/events/ftd-hands-on-workshop-beta-22nd-oct-2022.png">
 </div>
 
-This repository contains the source code of a [FTD Hands-On Workshop
-(Beta)](https://www.fifthtry.com/events/).
+This repository contains the source code of a [FTD Hands-On
+Workshop](https://ftd.dev/workshop/).
 
 > FTD language is a possible replacement for JavaScript/React to build web
 > front-ends. In this workshop you will learn the basics of FTD and build a web
@@ -27,43 +27,5 @@ and create side data driven server rendered pages. In the third part we will
 create client side event handling and interact with HTTP APIs (ajax and form
 submissions).
 
-## Basic Instruction
-
-Clone this repository: `git clone https://github.com/ftd-lang/ftd-workshop.git`.
-
-Get on the [discord channel for this workshop](https://discord.gg/d2MgKBybEQ)
-and interact with the instructors and others going through the workshop to show
-progress and ask for help.
-
-For each step there is a folder, eg the first step is `01-data/01-hello-world`.
-`cd` into this folder, and follow run the commands from that folder.
-
-You will be running `fpm serve` in each folder, so do remember to kill the fpm
-server when you are done with a step and moving to another step.
-
-Each step is organized as a series of tasks. Do give a shout out to everyone
-when you are done with a task. Or feel free to ask for help in Chat or view
-by speaking out during the workshop.
-
-Have fun, you are among friends.
-
-## Part 1: Working With Data In FTD
-
-In this part we will install [fpm](https://fpm.dev), a learn about data
-modelling capabilities of FTD.
-
-- [Step 1: Hello World](01-data/01-hello-world/)
-- [Step 2: Boolean Variables](01-data/02-boolean/)
-- [Step 3: Numbers And Strings](01-data/03-numbers-and-strings/)
-- [Step 4: Records](01-data/04-records/)
-
-## Part 2: Building Reusable Server Side UI
-
-In this part we will learn how to create re-usable UI components.
-
-
-## Part 3: Front-end Event Handling And HTTP APIs
-
-In this we will learn how to do event handling and to work with HTTP APIs.
 
 

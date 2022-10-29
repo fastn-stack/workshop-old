@@ -1,6 +1,7 @@
-; TODO: lets define an integer x with the value 10
+; visit https://ftd.dev/workshop/numbers-and-strings/ for instructions
 
--- integer x: 20
+
+; TODO: lets define an integer x with the value 10
 
 ; a variable can refer to another variable as well
 

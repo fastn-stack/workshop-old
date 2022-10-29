@@ -1,3 +1,5 @@
+; visit https://ftd.dev/workshop/records/ for instructions
+
 -- ftd.text: records
 
 -- ftd.text: records
@@ -6,3 +8,5 @@ link: /records/
 -- ftd.text: caption and body
 link: /caption-and-body/
 
+-- ftd.text: default values
+link: /default/

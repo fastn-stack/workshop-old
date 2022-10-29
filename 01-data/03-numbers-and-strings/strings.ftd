@@ -1,11 +1,15 @@
-; lets define a single line string, name, with your name as value
+; visit https://ftd.dev/workshop/numbers-and-strings/ for instructions
+
+
+
+; lets define a single line string, `name`, with your name as value
 
 ; TODO: define name here
 
--- string name: amitu
 
 
-; lets show the name
+; lets show the name. this line will fail till you have defined the variable
+; called name.
 
 
 -- ftd.text: $name
@@ -23,5 +27,3 @@ string ends when FTD encounters the next "section" or end of file
 
 
 ; TODO: now use `ftd.text` to show the bio in the UI
-
--- ftd.text: $bio

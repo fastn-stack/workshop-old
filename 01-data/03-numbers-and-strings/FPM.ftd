@@ -1,3 +1,6 @@
+; visit https://ftd.dev/workshop/numbers-and-strings/ for instructions
+
+
 -- import: fpm
 
 -- fpm.package: hello
