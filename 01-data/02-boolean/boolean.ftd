@@ -23,7 +23,7 @@
 ; condition matches
 
 -- ftd.text: open is true
-if: $open
+if: {open}
 
 ; go ahead and change the value of `open` to false during initialisation and
 ; test in browser that it does indeed not open

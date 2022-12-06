@@ -7,12 +7,18 @@
 
 -- foo:
 
--- ftd.column foo:
-padding: 40
+-- component foo:
 
---- ftd.text: Fifthtry
+-- ftd.column:
+padding.px: 40
 
---- ftd.text: Workshop
+-- ftd.text: Fifthtry
+
+-- ftd.text: Workshop
+
+-- end: ftd.column
+
+-- end: foo
 
 
 -- ftd.text: with-argument

@@ -1,0 +1,4 @@
+; check: https://ftd.dev/workshop/hello-world/ for instructions
+-- import: fpm
+
+-- fpm.package: hello

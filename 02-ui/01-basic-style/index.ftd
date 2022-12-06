@@ -19,7 +19,7 @@
 
 
 -- ftd.text: hello world
-; padding: 20
+; padding.px: 20
 ; border-width: 2
 ; role: $fpm.type.label-big
 ; color: $red

@@ -13,28 +13,26 @@
 -- locations: Prayagraj
 
 
-
-
 -- ftd.column:
-padding: 40
-spacing: 10
+padding.px: 40
+spacing.px: 10
 
 -- foo:
 $loop$: $locations as $obj
 name: $obj
 b: 5
 
-
 /-- foo:
 name: FifthTry
 b: 4
 
-
-
-
--- ftd.text foo: $name
+-- component foo:
 string name:
 integer b:
+
+-- ftd.text: $name
 padding: 40
 border-width: $b
+
+-- end: foo
 

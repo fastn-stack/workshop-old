@@ -1,22 +1,20 @@
 -- import: fpm
 
-; this is a ftd file
-;
-; lines starting with ; (semi-colon) are comments
-;
-; visit http://127.0.0.1:8000 in browser to see it
-
-
 -- foo:
 name: FifthTry
 b: 4
 
--- ftd.column foo:
+-- component foo:
 string name:
 integer b:
-padding: 40
 
---- ftd.text: $name
-border-width: $b
+-- ftd.column:
+padding.px: 40
 
---- ftd.text: Workshop
+-- ftd.text: $name
+
+-- ftd.text: Workshop
+
+-- end: ftd.column
+
+-- end: foo

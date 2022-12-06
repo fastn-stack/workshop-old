@@ -5,8 +5,8 @@
 ; visit http://127.0.0.1:8000 in browser to see it
 
 -- ftd.row:
-padding: 40
-spacing: 40
+padding.px: 40
+spacing.px: 40
 
 -- ftd.text: hello
 
