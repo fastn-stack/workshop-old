@@ -1,16 +1,16 @@
-; visit https://ftd.dev/workshop/numbers-and-strings/ for instructions
+;; visit https://ftd.dev/workshop/numbers-and-strings/ for instructions
 
 
-; TODO: lets define an integer x with the value 10
+;; TODO: lets define an integer x with the value 10
 
-; a variable can refer to another variable as well
+;; a variable can refer to another variable as well
 
 -- integer y: $x
 
-; we can use `ftd.integer` component to show a number in the page.
+;; we can use `ftd.integer` component to show a number in the page.
 
 -- ftd.integer: $y
 
 
-; TODO: define a `decimal` variable called `pi` and and show it using
-; `ftd.decimal`
+;; TODO: define a `decimal` variable called `pi` and and show it using
+;; `ftd.decimal`

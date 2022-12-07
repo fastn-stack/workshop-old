@@ -1,10 +1,13 @@
-; visit https://ftd.dev/workshop/booleans/ for instructions
+;; visit https://ftd.dev/workshop/booleans/ for instructions
 
 -- ftd.text: lets learn booleans
 
-; TODO: here we are trying to create a link using the `link` attribute but
-; unfortunately this does not work for some reason, can you find out the issue
-; and fix it?
+;; TODO: here we are trying to create a link using the `link` attribute but
+;; unfortunately this does not work for some reason, can you find out the issue
+;; and fix it?
+
+
+/helo
 
 -- ftd.text: boolean
-;link: /boolean/
+link: /boolean/

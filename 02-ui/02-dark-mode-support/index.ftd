@@ -1,13 +1,13 @@
 -- import: fpm
 
-; this is a ftd file
-;
-; lines starting with ; (semi-colon) are comments
-;
-; use "-- ftd.text: hello world" on a line without comments and quotes and
-; visit http://127.0.0.1:8000 in browser to see it
+;; this is a ftd file
+;;
+;; lines starting with ;; (semi-colon) are comments
+;;
+;; use "-- ftd.text: hello world" on a line without comments and quotes and
+;; visit http://127.0.0.1:8000 in browser to see it
 
-; To define color, there is an in-built record in ftd `ftd.color`
+;; To define color, there is an in-built record in ftd `ftd.color`
 -- ftd.color orange-red:
 light: orange
 dark: red
@@ -15,16 +15,16 @@ dark: red
 -- ftd.color blue-yellow:
 light: blue
 dark: yellow
-; fpm module also provide bunch of colors https://fifthtry.github.io/color-doc/
+;; fpm module also provide bunch of colors https://fifthtry.github.io/color-doc/
 
 
 
 -- ftd.text: hello world
-; padding.px: 20
-; border-width: 2
-; role: $fpm.type.label-big
-; color: $orange-red
-; background-color: $blue-yellow
+;; padding.px: 20
+;; border-width: 2
+;; role: $fpm.type.label-big
+;; color: $orange-red
+;; background-color: $blue-yellow
 
-; remove all the comments for style properties to see the result
-; Note: remove only one of the comment for `color` property
+;; remove all the comments for style properties to see the result
+;; Note: remove only one of the comment for `color` property

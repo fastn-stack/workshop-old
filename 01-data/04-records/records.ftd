@@ -1,18 +1,18 @@
-; visit https://ftd.dev/workshop/records/ for instructions
+;; visit https://ftd.dev/workshop/records/ for instructions
 
 
 -- ftd.text: records
 
-; TODO: create a record called company with fields name (string) and
-; number-of-employees (integer).
+;; TODO: create a record called company with fields name (string) and
+;; number-of-employees (integer).
 
 
 
 
-; TODO: create an instance of the company `fifthtry`
+;; TODO: create an instance of the company `fifthtry`
 
 
-; TODO: there is something wrong with this snippet, can you find it and fix it?
+;; TODO: there is something wrong with this snippet, can you find it and fix it?
 
 -- company fifthtry:
 name: FifthTry
@@ -24,9 +24,9 @@ name: FifthTry
 
 -- ftd.text: Company
 
-; TODO: printout the companies name using `-- ftd.text: $fifthtry.name`
+;; TODO: printout the companies name using `-- ftd.text: $fifthtry.name`
 
-; TODO: printout the number of employees of the company using `ftd.integer`
+;; TODO: printout the number of employees of the company using `ftd.integer`
 
 
 

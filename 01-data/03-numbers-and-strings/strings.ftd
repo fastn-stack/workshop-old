@@ -1,21 +1,21 @@
-; visit https://ftd.dev/workshop/numbers-and-strings/ for instructions
+;; visit https://ftd.dev/workshop/numbers-and-strings/ for instructions
 
 
 
-; lets define a single line string, `name`, with your name as value
+;; lets define a single line string, `name`, with your name as value
 
-; TODO: define name here
+;; TODO: define name here
 
 
 
-; lets show the name. this line will fail till you have defined the variable
-; called name.
+;; lets show the name. this line will fail till you have defined the variable
+;; called name.
 
 
 -- ftd.text: $name
 
 
-; we have defined a multiline variable
+;; we have defined a multiline variable
 
 -- string bio:
 
@@ -26,4 +26,4 @@ it can be multiline
 string ends when FTD encounters the next "section" or end of file
 
 
-; TODO: now use `ftd.text` to show the bio in the UI
+;; TODO: now use `ftd.text` to show the bio in the UI
