@@ -13,7 +13,7 @@
 
 ;; define a boolean variable called `open` after this line
 
-
+-- boolean open: true
 
 ;; here we are using the boolean variable
 ;;
@@ -23,7 +23,7 @@
 ;; condition matches
 
 -- ftd.text: open is true
-if: {open}
+if: { open }
 
 ;; go ahead and change the value of `open` to false during initialisation and
 ;; test in browser that it does indeed not open
