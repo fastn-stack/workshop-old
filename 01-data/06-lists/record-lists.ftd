@@ -1,0 +1,109 @@
+;; Here we will see how we can create a list of more complex data-type
+;; using records
+
+;; Lets say we want to create an list of employees
+;; An employee would have several different information
+;; like name, age, location, description, designation etc.
+
+;; To model all these employee related information we can use records
+;; Lets look at a simple Employee record holding all of the above information
+
+-- record Employee:
+caption name:
+integer age:
+string location:
+string designation:
+body description:
+
+;; Creating a single instance is quite simple like this
+-- Employee e: Rithik
+age: 22
+location: Bangalore
+designation: Software Developer
+
+I work for FifthTry
+
+;; Printing information from a record instance is pretty simple
+-- ftd.text: $e.name
+-- ftd.text: $e.location
+-- ftd.text: $e.description
+-- ftd.text: $e.designation
+-- ftd.integer: $e.age
+
+;; We can create a list of employees as well like this
+-- Employee list employees:
+
+-- Employee: AmitU
+age: 23
+location: Bangalore
+designation: CEO
+
+We are building FTD to make documentation simpler for all humans
+
+-- Employee: Arpita
+age: 22
+location: Bangalore
+designation: Software Developer
+
+I'm building FTD
+
+-- end: employees
+
+;; Lets say we just want to show the details of all the employees
+;; First we will create a component which will display all the information
+;; for a single employee record
+;; Then we will create another component which will display information
+;; for all employees from the employees list created above.
+
+;; This display-employee component will print
+;; all information of a single employee. It will take an
+;; Employee instance and print all information of that instance.
+-- component display-employee:
+Employee e:
+
+-- ftd.row:
+
+-- ftd.text: $display-employee.e.name
+padding.px: 5
+
+-- ftd.integer: $display-employee.e.age
+padding.px: 5
+
+-- ftd.text: $display-employee.e.location
+padding.px: 5
+
+-- ftd.text: $display-employee.e.designation
+padding.px: 5
+
+-- ftd.text: $display-employee.e.description
+padding.px: 5
+
+-- end: ftd.row
+
+-- end: display-employee
+
+
+;; This `show-employees` component will make use of
+;; `display-employee` component to print all employees
+;; from the employees list.
+;; It will take an Employee list and
+;; print all information from it.
+-- component show-employees:
+Employee list e-list:
+
+-- ftd.column:
+
+-- display-employee:
+e: $emp
+$loop$: $show-employees.e-list as $emp
+
+-- end: ftd.column
+
+-- end: show-employees
+
+;; Now we can print all employees using the
+;; show-employees component which we created above
+
+-- show-employees:
+e-list: $employees
+

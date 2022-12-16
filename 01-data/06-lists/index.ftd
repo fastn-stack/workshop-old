@@ -1,14 +1,10 @@
+-- ftd.text: Lists introduction
 
--- integer list list:
+-- ftd.text: Primitive Lists
+/link: /primitive-lists/
 
--- list: 10
--- list: 20
--- list: 30
+-- ftd.text: Record-type lists
+/link: /record-lists/
 
-
-
--- ftd.integer:
-value: $o
-$loop$: $list as $o
 
 

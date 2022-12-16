@@ -1,0 +1,71 @@
+;; Here we will see how we can create a simple integer list
+;; by initializing it with some values
+
+-- integer list lst:
+
+-- integer: 10
+-- integer: 20
+-- integer: 30
+
+-- end: lst
+
+;; now we can print all the values from the list created above,
+;; by looping through all those values.
+
+;; Option 1: Most cleaner way :)
+-- ftd.integer: $num
+$loop$: $lst as $num
+
+;; Option 2:
+-- ftd.integer:
+value: $num
+$loop$: $lst as $num
+
+;; Option 3:
+-- ftd.integer:
+$loop$: $lst as $num
+
+$num
+
+;; Similarly we can create lists of other primitive types as well
+;; which include string, decimal, boolean types
+
+;; Let's say we now want to create a string list,
+;; Below is an example of a simple string list storing different locations
+
+-- string list locations:
+
+-- string: Bangalore
+-- string: Delhi
+-- string: New York
+-- string: Thailand
+
+-- end: locations
+
+;; You can print these values by looping through it just as we
+;; did for the integer list above but this time
+;; to print strings we use ftd.text:
+
+;; Option 1: This is a most cleaner way :)
+;; ftd.text takes caption data
+-- ftd.text: $place
+$loop$: $locations as $place
+
+;; Option 2:
+;; ftd.text takes data from `text` header
+-- ftd.text:
+$loop$: $locations as $place
+text: $place
+
+;; Option 3:
+;; ftd.text takes data from body
+-- ftd.text:
+$loop$: $locations as $place
+
+$place
+
+;; NOTE: To print any of the primitive data, refer below
+;; For strings - use ftd.text
+;; For integers - use ftd.integer
+;; For decimals - use ftd.decimal
+;; For booleans - use ftd.boolean

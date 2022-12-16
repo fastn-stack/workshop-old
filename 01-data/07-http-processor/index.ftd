@@ -22,6 +22,8 @@ padding.px: 10
 /t: $t
 /$loop$: $todo-list as $t
 
+-- end: ftd.column
+
 /-- ftd.column todo-view:
 /todo-item t:
 /spacing: 10
@@ -34,6 +36,8 @@ padding.px: 10
 /-- ftd.text: $t.status
 /-- ftd.text: $t.description
 
+/-- end: todo-view
 
-/Uncomment the above code and run to see the below error
-/FPM-Error: path: /, PackageError { message: "failed to parse ParseError { message: \"hello/: not found (\\\"http\\\"), f: Variable::from_ast\", doc_id: \"hello/\", line_number: 11 }" }
+
+;; Uncomment the above code and run to see the below error
+;; FPM-Error: path: /, PackageError { message: "failed to parse ParseError { message: \"hello/: not found (\\\"http\\\"), f: Variable::from_ast\", doc_id: \"hello/\", line_number: 11 }" }

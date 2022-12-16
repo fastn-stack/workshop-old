@@ -8,9 +8,11 @@
 
 -- string list locations:
 
--- locations: Bengaluru
--- locations: Varanasi
--- locations: Prayagraj
+-- string: Bengaluru
+-- string: Varanasi
+-- string: Prayagraj
+
+-- end: locations
 
 
 -- ftd.column:
@@ -22,17 +24,15 @@ $loop$: $locations as $obj
 name: $obj
 b: 5
 
-/-- foo:
-name: FifthTry
-b: 4
+-- end: ftd.column
 
 -- component foo:
 string name:
 integer b:
 
--- ftd.text: $name
-padding: 40
-border-width: $b
+-- ftd.text: $foo.name
+padding.px: 40
+border-width.px: $foo.b
 
 -- end: foo
 

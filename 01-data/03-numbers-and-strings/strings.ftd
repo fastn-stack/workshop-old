@@ -7,15 +7,15 @@
 ;; TODO: define name here
 
 
-
-;; lets show the name. this line will fail till you have defined the variable
-;; called name.
+;; let's show the name. the below line will fail
+;; unless you have defined the string variable
+;; called 'name'.
 
 
 -- ftd.text: $name
 
 
-;; we have defined a multiline variable
+;; Here we have defined a multiline string variable named 'bio'
 
 -- string bio:
 

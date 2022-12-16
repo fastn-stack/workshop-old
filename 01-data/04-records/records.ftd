@@ -8,11 +8,10 @@
 
 
 
+;; TODO: create an instance of the company
 
-;; TODO: create an instance of the company `fifthtry`
 
-
-;; TODO: there is something wrong with this snippet, can you find it and fix it?
+;; TODO: there is something wrong with this snippet, can you find and fix it?
 
 -- company fifthtry:
 name: FifthTry

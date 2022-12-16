@@ -1,4 +1,4 @@
--- import: hello/assets
+-- import: images/assets
 
 ;; this is a ftd file
 ;;
@@ -7,10 +7,10 @@
 ;; visit http://127.0.0.1:8000 in browser to see it
 
 -- ftd.color bg:
-light: white
-dark: black
+light: red
+dark: green
 
-
+;; This is not working issue with import
 -- ftd.image:
 src: $assets.files.logo-fifthtry.svg
 background-color: $bg
