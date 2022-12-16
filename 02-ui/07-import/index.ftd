@@ -1,4 +1,4 @@
--- import: hello/manual-image
+-- import: import/manual-image
 
 ;; this is a ftd file
 ;;

@@ -17,14 +17,19 @@ light: blue
 dark: yellow
 ;; fpm module also provide bunch of colors https://fifthtry.github.io/color-doc/
 
+;; For toggling the light and dark modes
+-- void toggle(a):
+boolean $a:
 
+a = !a;
 
 -- ftd.text: hello world
 ;; padding.px: 20
-;; border-width: 2
-;; role: $fpm.type.label-big
+;; border-width.px: 2
+/role: $fpm.type.label-big
 ;; color: $orange-red
-;; background-color: $blue-yellow
+/background-color: $blue-yellow
+;; $on-click$: $toggle($a=$ftd.dark-mode)
 
 ;; remove all the comments for style properties to see the result
 ;; Note: remove only one of the comment for `color` property

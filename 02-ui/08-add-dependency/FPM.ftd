@@ -1,5 +1,5 @@
 -- import: fpm
 
--- fpm.package: hello
+-- fpm.package: add-dependency
 
 -- fpm.dependency: fifthtry.github.io/button as button

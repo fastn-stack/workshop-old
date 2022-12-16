@@ -12,7 +12,7 @@
 -- ftd.column:
 padding.px: 40
 
--- ftd.text: Fifthtry
+-- ftd.text: FifthTry
 
 -- ftd.text: Workshop
 
@@ -21,5 +21,5 @@ padding.px: 40
 -- end: foo
 
 
--- ftd.text: with-argument
+-- ftd.text: component with arguments
 link: /with-argument/

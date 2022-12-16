@@ -4,9 +4,12 @@
 ;;
 ;; visit http://127.0.0.1:8000 in browser to see it
 
+-- ftd.column:
+padding.px: 40
+spacing.px: 40
 
--- ftd.text: row
-link: /row/
+-- ftd.text: hello
 
--- ftd.text: column
-link: /column/
+-- ftd.text: world
+
+-- end: ftd.column

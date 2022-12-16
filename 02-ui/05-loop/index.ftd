@@ -1,20 +1,20 @@
 -- string list locations:
 
--- locations: Bengaluru
--- locations: Varanasi
--- locations: Prayagraj
+-- string: Bengaluru
+-- string: Varanasi
+-- string: Prayagraj
 
--- print:
-$loop$: $locations as $obj
-value: $obj
+-- end: locations
 
--- component print:
+-- component print-locations:
 
--- string value:
+;; This is not working
+-- ftd.text: $place
+$loop$: $locations as $place
 
--- ftd.text: $print.value
+-- end: print-locations
 
--- end: print
+-- print-locations:
 
--- ftd.text: with-argument
+-- ftd.text: looping component with argument
 link: /with-argument/

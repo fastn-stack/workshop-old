@@ -2,19 +2,24 @@
 
 -- foo:
 name: FifthTry
-b: 4
+number: 4
 
 -- component foo:
 string name:
-integer b:
+integer number:
 
--- ftd.column:
+-- ftd.row:
 padding.px: 40
 
--- ftd.text: $name
+-- ftd.text: $foo.name
+padding.px: 5
 
 -- ftd.text: Workshop
+padding.px: 5
 
--- end: ftd.column
+-- ftd.integer: $foo.number
+padding.px: 5
+
+-- end: ftd.row
 
 -- end: foo

@@ -1,4 +1,4 @@
 ;; visit https://ftd.dev/workshop/booleans/ for instructions
 -- import: fpm
 
--- fpm.package: hello
+-- fpm.package: boolean

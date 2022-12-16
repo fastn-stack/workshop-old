@@ -11,20 +11,21 @@
 ;; https://fpm.dev/theme/type
 
 ;; To define color, there is an in-built record in ftd `ftd.color`
-;; -- ftd.color red:
-;; light: red
-;; dark: red
+/-- ftd.color red:
+light: red
+dark: red
+
 ;; fpm module also provide bunch of colors https://fifthtry.github.io/color-doc/
 
 
 
 -- ftd.text: hello world
 ;; padding.px: 20
-;; border-width: 2
-;; role: $fpm.type.label-big
+;; border-width.px: 2
+/role: $fpm.type.heading-small
 ;; color: $red
-;; color: $fpm.color.main.custom.four
-;; background-color: $fpm.color.main.custom.three
+/color: $fpm.color.main.custom.four
+/background-color: $fpm.color.main.custom.three
 
 ;; remove all the comments for style properties to see the result
 ;; Note: remove only one of the comment for `color` property
