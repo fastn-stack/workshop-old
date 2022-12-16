@@ -1,4 +1,4 @@
-; visit https://ftd.dev/workshop/records/ for instructions
+;; visit https://ftd.dev/workshop/records/ for instructions
 
 
 -- ftd.text: captions and body
@@ -16,9 +16,9 @@ FifthTry helps anyone create web pages easily.
 
 -- ftd.text: Company
 
-; use `ftd.text` to show the name of the company
+;; use `ftd.text` to show the name of the company
 
-; use `ftd.integer` to show the number of employees
+;; use `ftd.integer` to show the number of employees
 
 
 -- ftd.text:

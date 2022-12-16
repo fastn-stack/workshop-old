@@ -1,18 +1,24 @@
-; this is a ftd file
-;
-; lines starting with ; (semi-colon) are comments
-;
-; visit http://127.0.0.1:8000 in browser to see it
+;; this is a ftd file
+;;
+;; lines starting with ;; (semi-colon) are comments
+;;
+;; visit http://127.0.0.1:8000 in browser to see it
 
 
 -- foo:
 
--- ftd.column foo:
-padding: 40
+-- component foo:
 
---- ftd.text: Fifthtry
+-- ftd.column:
+padding.px: 40
 
---- ftd.text: Workshop
+-- ftd.text: Fifthtry
+
+-- ftd.text: Workshop
+
+-- end: ftd.column
+
+-- end: foo
 
 
 -- ftd.text: with-argument

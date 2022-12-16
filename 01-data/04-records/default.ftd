@@ -1,9 +1,9 @@
-; visit https://ftd.dev/workshop/records/ for instructions
+;; visit https://ftd.dev/workshop/records/ for instructions
 
 -- ftd.text: default values
 
-; in the record defined in the `caption-and-body.ftd`, make the number of
-; employees have a default of `10` using `integer number-of-employees: 10`
+;; in the record defined in the `caption-and-body.ftd`, make the number of
+;; employees have a default of `10` using `integer number-of-employees: 10`
 
 -- record company:
 caption name:
@@ -11,8 +11,8 @@ integer number-of-employees:
 body about:
 
 
-; TODO: delete the number-of-employees field below and verify that the default
-; value is getting printed
+;; TODO: delete the number-of-employees field below and verify that the default
+;; value is getting printed
 
 -- company fifthtry: FifthTry
 number-of-employees: 20
@@ -22,9 +22,9 @@ FifthTry helps anyone create web pages easily.
 
 -- ftd.text: Company
 
-; use `ftd.text` to show the name of the company
+;; use `ftd.text` to show the name of the company
 
-; use `ftd.integer` to show the number of employees
+;; use `ftd.integer` to show the number of employees
 
 
 -- ftd.text:

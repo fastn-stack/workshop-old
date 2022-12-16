@@ -15,25 +15,25 @@ url: https://kameri-service.herokuapp.com/api/sample/
 
 
 -- ftd.column:
-spacing: 10
-padding: 10
+spacing.px: 10
+padding.px: 10
 
---- todo-view:
-t: $t
-$loop$: $todo-list as $t
+/-- todo-view:
+/t: $t
+/$loop$: $todo-list as $t
+
+/-- ftd.column todo-view:
+/todo-item t:
+/spacing: 10
+/padding: 10
+/border-width: 1
+/border-radius: 5
+
+/-- ftd.text: $t.title
+/-- ftd.integer: $t.id
+/-- ftd.text: $t.status
+/-- ftd.text: $t.description
 
 
-
-
--- ftd.column todo-view:
-todo-item t:
-spacing: 10
-padding: 10
-border-width: 1
-border-radius: 5
-
-
---- ftd.text: $t.title
---- ftd.integer: $t.id
---- ftd.text: $t.status
---- ftd.text: $t.description
+/Uncomment the above code and run to see the below error
+/FPM-Error: path: /, PackageError { message: "failed to parse ParseError { message: \"hello/: not found (\\\"http\\\"), f: Variable::from_ast\", doc_id: \"hello/\", line_number: 11 }" }
